@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/8/14 12:35:50。
+     1>项目“D:\learning\C++\Practice\niuke\niuke\niuke.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Application\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "2最少的回文个数.cpp"
+         2最少的回文个数.cpp
+     1>d:\learning\c++\practice\niuke\niuke\2最少的回文个数.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\learning\c++\practice\niuke\niuke\2最少的回文个数.cpp(21): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+       Link:
+         E:\Application\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learning\C++\Practice\niuke\Debug\niuke.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\learning\C++\Practice\niuke\Debug\niuke.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learning\C++\Practice\niuke\Debug\niuke.lib" /MACHINE:X86 "Debug\5最长公共字序列.obj"
+         Debug\main.obj
+         "Debug\2最少的回文个数.obj"
+         "Debug\3最大的偶窜长度.obj"
+         "Debug\4k在数组中出现的次数.obj"
+         niuke.vcxproj -> D:\learning\C++\Practice\niuke\Debug\niuke.exe
+     1>已完成生成项目“D:\learning\C++\Practice\niuke\niuke\niuke.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.00
