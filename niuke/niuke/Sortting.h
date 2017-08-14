@@ -100,4 +100,24 @@ void HeapSort(int a[],int length) {
 		HeadAdjust(a,0,i-1);
 	}
 }
+/*
+插入排序：
+时间最差：	逆序 O(n^2)
+时间最好:	顺序O(n)
+空间复杂度：O(1)
+*/
+void Insert_Sort(int a[], int length) {
+	for (int i=1;i<=length;++i)
+	{
+		if (a[i]<a[i-1])
+		{
+			int j,temp = a[i];
+			for (j=i-1;j>=0&&a[j]>temp;--j)
+			{
+				a[j + 1] = a[j];//所有大于temp的都要向后移动一位
+			}
+			a[j + 1] = temp;
+		}
+	}
+}
 

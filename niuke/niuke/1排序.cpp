@@ -19,7 +19,8 @@ int main() {
 	start = clock();
 	//QSort(a,0,length-1);
 	//MSort(a, 0, length - 1);
-	HeapSort(a, length - 1);
+	//HeapSort(a, length - 1);
+	Insert_Sort(a,length-1);
 	finish = clock();
 	totaltime = (double)(finish - start) / CLOCKS_PER_SEC;
 	cout << "qsort totaltime:" << totaltime << "s" << endl << endl;;
