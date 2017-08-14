@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="5最长公共字序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -30,5 +27,13 @@
     <ClCompile Include="2最少的回文个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sortting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -147,10 +147,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="5最长公共字序列.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="1排序.cpp" />
     <ClCompile Include="2最少的回文个数.cpp" />
     <ClCompile Include="3最大的偶窜长度.cpp" />
     <ClCompile Include="4k在数组中出现的次数.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sortting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

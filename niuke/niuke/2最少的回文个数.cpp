@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+int main_2() {
 	int result = 0;
 	string str;
 	cin >> str;
