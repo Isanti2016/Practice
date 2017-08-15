@@ -17,10 +17,17 @@ int main() {
 	cout << endl << endl;;
 
 	start = clock();
-	//QSort(a,0,length-1);
-	//MSort(a, 0, length - 1);
-	//HeapSort(a, length - 1);
-	Insert_Sort(a,length-1);
+	for (int i = 0; i < 10000; ++i)
+	{
+		//QSort(a,0,length-1);
+		//MSort(a, 0, length - 1);
+		//HeapSort(a, length - 1);
+		//Insert_Sort(a,length-1);
+		//ShellSort(a, length-1);
+		//SelectSort(a, length - 1);
+		//BubbleSort(a,length-1);
+		BubbleSort2(a, length - 1);
+	}
 	finish = clock();
 	totaltime = (double)(finish - start) / CLOCKS_PER_SEC;
 	cout << "qsort totaltime:" << totaltime << "s" << endl << endl;;
