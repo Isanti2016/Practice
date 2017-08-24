@@ -30,9 +30,42 @@
     <ClCompile Include="1排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7散列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9彩色砖块_网易.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10Effective.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11HuaWei.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12LianJia.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13_58最短子窜.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14字符串的排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15 字符自动分割.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sortting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Searching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Effective.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int main_1() {
 	clock_t start, finish;
 	double totaltime;
 
@@ -38,4 +38,5 @@ int main() {
 		cout << a[i] << " ";
 	}
 	cout << endl;
+	return 0;
 }

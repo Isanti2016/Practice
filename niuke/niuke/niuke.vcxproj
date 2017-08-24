@@ -146,13 +146,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="13_58最短子窜.cpp" />
+    <ClCompile Include="14字符串的排序.cpp" />
+    <ClCompile Include="15 字符自动分割.cpp" />
     <ClCompile Include="5最长公共字序列.cpp" />
     <ClCompile Include="1排序.cpp" />
     <ClCompile Include="2最少的回文个数.cpp" />
     <ClCompile Include="3最大的偶窜长度.cpp" />
     <ClCompile Include="4k在数组中出现的次数.cpp" />
+    <ClCompile Include="6查找.cpp" />
+    <ClCompile Include="7散列表.cpp" />
+    <ClCompile Include="9彩色砖块_网易.cpp" />
+    <ClCompile Include="10Effective.cpp" />
+    <ClCompile Include="11HuaWei.cpp" />
+    <ClCompile Include="12LianJia.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Effective.h" />
+    <ClInclude Include="Searching.h" />
     <ClInclude Include="Sortting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

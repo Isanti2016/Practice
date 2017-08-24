@@ -1,3 +1,7 @@
+/*
+前后相等视为偶窜如,abcabc
+题目是给出偶窜如abcabc，从最后删除1个或多个字符，查看偶窜的最大长度
+*/
 #include <iostream>
 #include <string>
 #include <string.h>

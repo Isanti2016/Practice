@@ -1,3 +1,6 @@
+/*
+快速查找在数组中出现的次数，使用折半查找法
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

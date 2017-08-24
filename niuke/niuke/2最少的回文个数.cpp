@@ -1,3 +1,9 @@
+/*
+如abc
+最少的回文个数是3，a,b,c
+acc的最少回文个数是1，cac
+实质是统计奇数字母的个数
+*/
 #include <iostream>
 #include <string>
 #include <algorithm>
