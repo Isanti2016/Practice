@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5最长公共字序列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="4k在数组中出现的次数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -55,6 +52,39 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="15 字符自动分割.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16从第一个字符串中删除第二个字符串中出现的数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17滴滴.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18输入方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19搜狐.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20腾讯模拟.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21美团内推.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22广联达.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23拼多多.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24m进制转换为n进制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5最长回文窜.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25公共子窜和公共子序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

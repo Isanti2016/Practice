@@ -1,14 +1,25 @@
-﻿生成启动时间为 2017/8/24 12:43:02。
+﻿生成启动时间为 2017/9/5 11:00:12。
      1>项目“D:\learning\C++\Practice\niuke\niuke\niuke.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\Application\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "15 字符自动分割.cpp"
-         15 字符自动分割.cpp
-     1>d:\learning\c++\practice\niuke\niuke\15 字符自动分割.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+         E:\Application\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "25公共子窜和公共子序列.cpp"
+         25公共子窜和公共子序列.cpp
+     1>d:\learning\c++\practice\niuke\niuke\25公共子窜和公共子序列.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\learning\c++\practice\niuke\niuke\25公共子窜和公共子序列.cpp(22): warning C4018: “<=”: 有符号/无符号不匹配
        Link:
          E:\Application\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learning\C++\Practice\niuke\Debug\niuke.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\learning\C++\Practice\niuke\Debug\niuke.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learning\C++\Practice\niuke\Debug\niuke.lib" /MACHINE:X86 "Debug\13_58最短子窜.obj"
          "Debug\14字符串的排序.obj"
          "Debug\15 字符自动分割.obj"
-         "Debug\5最长公共字序列.obj"
+         "Debug\16从第一个字符串中删除第二个字符串中出现的数.obj"
+         "Debug\17滴滴.obj"
+         "Debug\18输入方式.obj"
+         "Debug\19搜狐.obj"
+         "Debug\20腾讯模拟.obj"
+         "Debug\21美团内推.obj"
+         "Debug\22广联达.obj"
+         "Debug\23拼多多.obj"
+         "Debug\24m进制转换为n进制.obj"
+         "Debug\25公共子窜和公共子序列.obj"
+         "Debug\5最长回文窜.obj"
          "Debug\1排序.obj"
          "Debug\2最少的回文个数.obj"
          "Debug\3最大的偶窜长度.obj"
@@ -24,4 +35,4 @@
 
 已成功生成。
 
-已用时间 00:00:00.95
+已用时间 00:00:01.12

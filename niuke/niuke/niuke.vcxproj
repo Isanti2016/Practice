@@ -87,7 +87,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -149,7 +149,17 @@
     <ClCompile Include="13_58最短子窜.cpp" />
     <ClCompile Include="14字符串的排序.cpp" />
     <ClCompile Include="15 字符自动分割.cpp" />
-    <ClCompile Include="5最长公共字序列.cpp" />
+    <ClCompile Include="16从第一个字符串中删除第二个字符串中出现的数.cpp" />
+    <ClCompile Include="17滴滴.cpp" />
+    <ClCompile Include="18输入方式.cpp" />
+    <ClCompile Include="19搜狐.cpp" />
+    <ClCompile Include="20腾讯模拟.cpp" />
+    <ClCompile Include="21美团内推.cpp" />
+    <ClCompile Include="22广联达.cpp" />
+    <ClCompile Include="23拼多多.cpp" />
+    <ClCompile Include="24m进制转换为n进制.cpp" />
+    <ClCompile Include="25公共子窜和公共子序列.cpp" />
+    <ClCompile Include="5最长回文窜.cpp" />
     <ClCompile Include="1排序.cpp" />
     <ClCompile Include="2最少的回文个数.cpp" />
     <ClCompile Include="3最大的偶窜长度.cpp" />

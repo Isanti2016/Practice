@@ -40,7 +40,7 @@ vector<string> split_str(const string &s, const string &seperator) {
 	}
 	return result;
 }
-int main() {
+int main_15() {
 	string str = "{58,69}";
 	string oper = "{,}"; 
 	vector<string> result;
@@ -50,4 +50,5 @@ int main() {
 		cout << result[i] << endl;
 	}
 	return 0;
+
 }
