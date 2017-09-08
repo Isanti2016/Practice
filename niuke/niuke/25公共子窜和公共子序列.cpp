@@ -163,4 +163,5 @@ int main_Seq_25() {
 
 	cout << "最长公共子序列的长度：" << Max_CH << endl;
 	cout << "最长公共子序列是：" << Comm_str << endl;
+	return 0;
 }

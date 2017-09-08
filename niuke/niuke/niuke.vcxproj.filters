@@ -87,6 +87,15 @@
     <ClCompile Include="25公共子窜和公共子序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="26动态规划.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27搜狗.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sortting.h">

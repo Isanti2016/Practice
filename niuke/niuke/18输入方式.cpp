@@ -80,18 +80,41 @@ int main_18() {
 	输出
 	34 25 36
 	*/
-	vector<int> vec;
-	char ch;
-	do
-	{
-		int temp;
-		scanf("%d", &temp);
-		vec.push_back(temp);
-	} while ((ch = getchar()) != ',');
+	//vector<int> vec;
+	//char ch;
+	//do
+	//{
+	//	int temp;
+	//	scanf("%d", &temp);
+	//	vec.push_back(temp);
+	//} while ((ch = getchar()) != ',');
 
-	for (int i = 0; i < vec.size();++i)
-	{
-		cout << vec[i] << " ";
+	//for (int i = 0; i < vec.size();++i)
+	//{
+	//	cout << vec[i] << " ";
+	//}
+
+	/*
+	塔型输入
+	5   //代表塔型行列数
+	7 
+	3 8 
+	8 1 0
+	2 7 4 4
+	4 5 2 6 5
+	*/
+	int n;
+	int a[200][200];
+	while (cin >> n) {
+		for (int i = 0; i < n; ++i)
+		{
+			for (int j = 0; j <= i; ++j)
+			{
+				int temp;
+				cin >> temp;
+				a[i][j] = temp;
+			}
+		}
 	}
 	return 0;
 }
