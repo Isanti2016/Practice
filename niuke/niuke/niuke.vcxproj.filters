@@ -93,7 +93,16 @@
     <ClCompile Include="27搜狗.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="KMP.cpp">
+    <ClCompile Include="28KMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29京东.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30网易.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31招商银行.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

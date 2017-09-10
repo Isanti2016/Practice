@@ -43,7 +43,6 @@ int Max_CS_5(string s1, string s2) {			//可求出最大公共子序列的长度
 		}
 	}
 	return count[length1][length2];
-
 }
 int main_5() {
 	vector<string> str;

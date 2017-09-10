@@ -331,6 +331,38 @@ int main_26_7() {
 	}
 	int result = Cost_Transform_26(str1, str2, cost);
 	cout << result << endl;
-
+	return 0;
 }
 
+
+int main_26_8() {
+	int a[100];
+	a[1] = 1;
+	int day;
+	int flag = 1;
+	int temp = 1;
+	for (int i = 2; i < 100; i++)
+	{
+		if (flag > 0)
+		{
+			a[i] = a[i - 1] + 1;
+		}
+		else if (flag == 0)
+			a[i] = a[i - 1] - 1;
+		flag--;
+		if (flag < 0)
+		{
+			temp = temp + 1;
+			flag = temp;
+		}
+	}
+	for (int i = 0; i < 100;i++)
+	{
+		cout << a[i] << " ";
+	}
+	while (cin >> day) {
+		cout << a[day] << endl;
+		
+	}
+	return 0;
+}

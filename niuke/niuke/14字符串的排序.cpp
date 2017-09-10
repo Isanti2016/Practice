@@ -8,10 +8,27 @@ aab aba aab aba baa baa
 abc acb bac bca cba cab
 */
 #include<iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-void Sort_Str(char* str, char* begin) {
+void STR_Sort_string(string& str, int pos, vector<string>& vec) {//string 的全排列
+	if (pos == str.size())
+	{
+		vec.push_back(str);
+	}
+	else {
+		for (int i = pos; i < str.size(); ++i)
+		{
+			swap(str[i], str[pos]);
+			STR_Sort_string(str, pos + 1, vec);
+			swap(str[i], str[pos]);
+		}
+	}
+}
+
+void Sort_Str(char* str, char* begin) {  //char*版的全排列
 	if (*begin == '\0')
 	{
 		cout << str << " ";
@@ -26,10 +43,20 @@ void Sort_Str(char* str, char* begin) {
 	}
 }
 
-int main_14_p() {
-	char str[100];
+int main_14_1() {
+	//char str[100];     
+	//cin >> str;
+	//Sort_Str(str, str);  //char*版的全排列
+
+	string str;
 	cin >> str;
-	Sort_Str(str, str);
+	vector<string> vec;
+	STR_Sort_string(str, 0, vec);//string 的全排列
+	for (int i = 0; i < vec.size();++i)
+	{
+		cout << vec[i] << " ";
+	}
+	cout << endl;
 	return 0;
 }
 
@@ -37,58 +64,58 @@ int main_14_p() {
 vector<int> vec数组的全排列
 8皇后92种摆放的问题，首先全排列，从全排列中找出不符合条件的，在用总的全排列数-不符合条件的
 */
-//#include<iostream>
-//#include<vector>
-//using namespace std;
-//void Sort_num(vector<int>& vec, int num,vector<vector<int>>& result) {
-//	if (num==vec.size()-1)
-//	{
-//		result.push_back(vec);
-//	}
-//	for (int i = num; i < vec.size(); ++i) {
-//		swap(vec[i],vec[num]);
-//		Sort_num(vec, num + 1,result);
-//		swap(vec[i], vec[num]);
-//	}
-//}
-//int main_14() {
-//	//vector<int> vec = { 0,1,2,3,4,5,6,7 };//8皇后
-//	vector<int> vec = { 0,1,2,3};//4皇后
-//	vector<vector<int>> result;
-//
-//	Sort_num(vec,0,result);
-//
-//	for (int i = 0; i < result.size(); ++i) {
-//		for (int j = 0; j < result[i].size(); ++j)
-//		{
-//			cout << result[i][j] << " ";
-//		}
-//		cout << endl;
-//	}
-//	cout << "总共全排列个数：" << result.size() << endl;
-//
-//	bool flag = true;
-//	int count = 0;
-//	for (int i = 0; i < result.size(); ++i) {
-//		for (int j = 0; flag &&j < result[i].size()-1; ++j)
-//		{
-//			for (int k = j + 1;  k < result[i].size();++k)
-//			{
-//				if ((k-j==result[i][k]-result[i][j])||( k - j == result[i][j] - result[i][k]))
-//				{
-//					flag = false;  //不符合条件的
-//				}
-//			}
-//		}
-//		if (!flag)
-//		{
-//			count++;
-//			flag = true;
-//		}
-//	}
-//	cout <<"总共皇后可以摆放的方法有："<< result.size()-count << endl;
-//	return 0;
-//}
+#include<iostream>
+#include<vector>
+using namespace std;
+void Sort_num(vector<int>& vec, int num,vector<vector<int>>& result) {
+	if (num==vec.size()-1)
+	{
+		result.push_back(vec);
+	}
+	for (int i = num; i < vec.size(); ++i) {
+		swap(vec[i],vec[num]);
+		Sort_num(vec, num + 1,result);
+		swap(vec[i], vec[num]);
+	}
+}
+int main_14_2() {
+	//vector<int> vec = { 0,1,2,3,4,5,6,7 };//8皇后
+	vector<int> vec = { 0,1,2,3};//4皇后
+	vector<vector<int>> result;
+
+	Sort_num(vec,0,result);
+
+	for (int i = 0; i < result.size(); ++i) {
+		for (int j = 0; j < result[i].size(); ++j)
+		{
+			cout << result[i][j] << " ";
+		}
+		cout << endl;
+	}
+	cout << "总共全排列个数：" << result.size() << endl;
+
+	bool flag = true;
+	int count = 0;
+	for (int i = 0; i < result.size(); ++i) {
+		for (int j = 0; flag &&j < result[i].size()-1; ++j)
+		{
+			for (int k = j + 1;  k < result[i].size();++k)
+			{
+				if ((k-j==result[i][k]-result[i][j])||( k - j == result[i][j] - result[i][k]))
+				{
+					flag = false;  //不符合条件的
+				}
+			}
+		}
+		if (!flag)
+		{
+			count++;
+			flag = true;
+		}
+	}
+	cout <<"总共皇后可以摆放的方法有："<< result.size()-count << endl;
+	return 0;
+}
 
 
 /*
@@ -143,7 +170,7 @@ void Combination(char* string,int& count)
 	}
 }
 
-int main_14_z()
+int main_14_3()
 {
 	char s[100];
 	cin >> s;
