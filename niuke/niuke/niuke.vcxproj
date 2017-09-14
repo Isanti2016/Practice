@@ -163,7 +163,9 @@
     <ClCompile Include="27搜狗.cpp" />
     <ClCompile Include="29京东.cpp" />
     <ClCompile Include="30网易.cpp" />
-    <ClCompile Include="31招商银行.cpp" />
+    <ClCompile Include="31今日头条.cpp" />
+    <ClCompile Include="32腾讯.cpp" />
+    <ClCompile Include="33华为.cpp" />
     <ClCompile Include="5最长回文窜.cpp" />
     <ClCompile Include="1排序.cpp" />
     <ClCompile Include="2最少的回文个数.cpp" />
@@ -178,6 +180,7 @@
     <ClCompile Include="28KMP.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class_def.h" />
     <ClInclude Include="Effective.h" />
     <ClInclude Include="Searching.h" />
     <ClInclude Include="Sortting.h" />
