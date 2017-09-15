@@ -27,7 +27,7 @@ void replaceSpace(char *str, int length) //length是最大空间限制
 			str[poin2--] = '2';
 			str[poin2--] = '%';
 
-源		}
+		}
 		else
 		{
 			str[poin2--] = str[poin1];

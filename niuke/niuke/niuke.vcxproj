@@ -166,6 +166,7 @@
     <ClCompile Include="31今日头条.cpp" />
     <ClCompile Include="32腾讯.cpp" />
     <ClCompile Include="33华为.cpp" />
+    <ClCompile Include="34海康威视.cpp" />
     <ClCompile Include="5最长回文窜.cpp" />
     <ClCompile Include="1排序.cpp" />
     <ClCompile Include="2最少的回文个数.cpp" />

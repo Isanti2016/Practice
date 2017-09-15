@@ -111,6 +111,9 @@
     <ClCompile Include="33华为.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="34海康威视.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sortting.h">

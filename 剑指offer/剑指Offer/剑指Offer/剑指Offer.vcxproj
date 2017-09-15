@@ -146,6 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10跳台阶.cpp" />
+    <ClCompile Include="11二进制中一个个数.cpp" />
+    <ClCompile Include="12数值的整数次方.cpp" />
+    <ClCompile Include="13打印从1到最大的n位数.cpp" />
+    <ClCompile Include="14_2调整数组顺序是奇数位于偶数前面.cpp" />
+    <ClCompile Include="14_1在O%281%29的时间内删除链表.cpp" />
     <ClCompile Include="1类的设计.cpp" />
     <ClCompile Include="2实现Singleton模式.cpp" />
     <ClCompile Include="3二维数组中的查找.cpp" />
@@ -153,6 +159,8 @@
     <ClCompile Include="5重尾到头打印链表.cpp" />
     <ClCompile Include="6重建二叉树.cpp" />
     <ClCompile Include="7两个栈实现一个队列.cpp" />
+    <ClCompile Include="8旋转数组的最小数字.cpp" />
+    <ClCompile Include="9斐波那契数列.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common_head.h" />
