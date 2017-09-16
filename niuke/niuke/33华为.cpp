@@ -190,7 +190,7 @@ int main_33_2()
 
 using namespace std;
 
-int main()
+int main_33_3()
 {
 	string strtemp;
 	int index;

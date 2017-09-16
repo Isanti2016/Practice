@@ -1,21 +1,24 @@
-﻿生成启动时间为 2017/9/15 11:30:12。
+﻿生成启动时间为 2017/9/16 10:13:22。
      1>项目“D:\learning\C++\Practice\剑指offer\剑指Offer\剑指Offer\剑指Offer.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\Application\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "14在O(1)的时间内删除链表.cpp" "5重尾到头打印链表.cpp" "6重建二叉树.cpp"
-         14在O(1)的时间内删除链表.cpp
-         正在生成代码...
-         正在编译...
-         6重建二叉树.cpp
-     1>d:\learning\c++\practice\剑指offer\剑指offer\剑指offer\6重建二叉树.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
-         5重尾到头打印链表.cpp
-         正在生成代码...
+         E:\Application\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "17合并链表.cpp"
+         17合并链表.cpp
        Link:
          E:\Application\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learning\C++\Practice\剑指offer\剑指Offer\Debug\剑指Offer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\learning\C++\Practice\剑指offer\剑指Offer\Debug\剑指Offer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learning\C++\Practice\剑指offer\剑指Offer\Debug\剑指Offer.lib" /MACHINE:X86 "Debug\10跳台阶.obj"
          "Debug\11二进制中一个个数.obj"
          "Debug\12数值的整数次方.obj"
          "Debug\13打印从1到最大的n位数.obj"
-         "Debug\14在O(1)的时间内删除链表.obj"
+         "Debug\14_2调整数组顺序是奇数位于偶数前面.obj"
+         "Debug\14_1在O(1)的时间内删除链表.obj"
+         "Debug\15链表中倒数第k个结点.obj"
+         "Debug\16反转链表.obj"
+         "Debug\17合并链表.obj"
+         "Debug\18树的子结构.obj"
+         "Debug\19二叉树的镜像.obj"
          "Debug\1类的设计.obj"
+         "Debug\23从上往下打印二叉树.obj"
+         "Debug\22栈的压入和弹出序列.obj"
+         "Debug\24二叉搜索树的后序遍历.obj"
          "Debug\2实现Singleton模式.obj"
          "Debug\3二维数组中的查找.obj"
          "Debug\4空格替换.obj"
@@ -24,9 +27,11 @@
          "Debug\7两个栈实现一个队列.obj"
          "Debug\8旋转数组的最小数字.obj"
          "Debug\9斐波那契数列.obj"
+         "Debug\20顺时针打印矩阵.obj"
+         "Debug\21包含min的函数栈.obj"
          剑指Offer.vcxproj -> D:\learning\C++\Practice\剑指offer\剑指Offer\Debug\剑指Offer.exe
      1>已完成生成项目“D:\learning\C++\Practice\剑指offer\剑指Offer\剑指Offer\剑指Offer.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:02.21
+已用时间 00:00:01.62

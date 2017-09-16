@@ -12,7 +12,7 @@ using namespace std;
 admin 112233
 0
 */
-int main()
+int main_34_1()
 {
 	string user;
 	string Mima;
@@ -83,4 +83,5 @@ int main()
 
 		}
 	}
+	return 0;
 }

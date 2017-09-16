@@ -13,7 +13,13 @@ struct ListNode {
 
 	}
 };
-
+struct RandomListNode {//∏¥‘”¡¥±Ì
+	int label;
+	struct RandomListNode *next, *random;
+	RandomListNode(int x) :
+		label(x), next(NULL), random(NULL) {
+	}
+};
 struct TreeNode {
 	int val;
 	TreeNode *left;
