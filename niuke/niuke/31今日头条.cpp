@@ -133,6 +133,7 @@ void main_31_2()
 }
 #include <string>
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -155,4 +156,63 @@ int mian_31_3() {
 	}
 	return 0;
 }
+
+/*
+使用二分查找，找出有序数组中的一个数的位置，不存在返回-1，存在返回位置，有重复的则返回最后一个的位置
+输入：
+1 2 3 3 3 3 4 5
+3
+输出
+5
+*/
+
+int GetIndex_OfK(const vector<int>& vec,int k) {
+	int start = 0;
+	int end = vec.size()-1;
+	int mid;
+	while (start<=end)
+	{
+		mid = (start + end) >> 1;
+		if (vec[mid]>k)
+		{
+			end = mid - 1;
+		}
+		else if (vec[mid]<k)
+		{
+			start = mid + 1;
+		}
+		else
+		{
+			if ((mid + 1)<=vec.size() - 1 && vec[mid+1]==k)//寻找最后一个k的值
+				start = mid + 1;			
+			else
+				return mid;
+		}
+	}
+	return -1;
+}
+int main_31() {
+	string str;
+	int k;
+	getline(cin, str);
+	cin >> k;
+	stringstream ss(str);
+
+	int temp;
+	vector<int> vec;
+	while (ss >> temp)
+	{
+		vec.push_back(temp);
+	}
+	//for (int i = 0; i < vec.size(); ++i)
+	//{
+	//	int result = GetIndex_OfK(vec, vec[i]);
+	//	cout << result << endl;
+	//}
+	int result = GetIndex_OfK(vec, k);
+	cout << result << endl;
+	return 0;
+}
+	
+	
 

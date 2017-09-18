@@ -168,6 +168,7 @@
     <ClCompile Include="33华为.cpp" />
     <ClCompile Include="34海康威视.cpp" />
     <ClCompile Include="35科大讯飞.cpp" />
+    <ClCompile Include="37迈瑞.cpp" />
     <ClCompile Include="36新浪.cpp" />
     <ClCompile Include="5最长回文窜.cpp" />
     <ClCompile Include="1排序.cpp" />

@@ -167,7 +167,25 @@
     <ClCompile Include="28字符串的排序.cpp" />
     <ClCompile Include="29数组中出现次数超过一半的数字.cpp" />
     <ClCompile Include="2实现Singleton模式.cpp" />
+    <ClCompile Include="30最小的k个数.cpp" />
+    <ClCompile Include="31连续子数组的最大和.cpp" />
+    <ClCompile Include="32从1到n整数中1出现的次数.cpp" />
+    <ClCompile Include="33把数组排成最小的数.cpp" />
+    <ClCompile Include="34丑数.cpp" />
+    <ClCompile Include="35第一个只出现一次的字符.cpp" />
+    <ClCompile Include="36数组中的逆序对数.cpp" />
+    <ClCompile Include="38数字在排序数组中出现的次数.cpp" />
+    <ClCompile Include="39_1二叉树的深度.cpp" />
+    <ClCompile Include="39_2判断一颗二叉树是不是平衡二叉树.cpp" />
     <ClCompile Include="3二维数组中的查找.cpp" />
+    <ClCompile Include="40数组中只出现一次的数字.cpp" />
+    <ClCompile Include="41_2和为s的连续正数序列.cpp" />
+    <ClCompile Include="41_1递增排序数组中和为s的两个数.cpp" />
+    <ClCompile Include="42_1翻转单词顺序.cpp" />
+    <ClCompile Include="42_2左旋字符串.cpp" />
+    <ClCompile Include="44扑克牌的顺子.cpp" />
+    <ClCompile Include="45圆圈中最后剩下的数字.cpp" />
+    <ClCompile Include="46求1+2+3+...+n.cpp" />
     <ClCompile Include="4空格替换.cpp" />
     <ClCompile Include="5重尾到头打印链表.cpp" />
     <ClCompile Include="6重建二叉树.cpp" />
@@ -176,6 +194,7 @@
     <ClCompile Include="9斐波那契数列.cpp" />
     <ClCompile Include="20顺时针打印矩阵.cpp" />
     <ClCompile Include="21包含min的函数栈.cpp" />
+    <ClCompile Include="37两个链表的第一个公共结点.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common_head.h" />

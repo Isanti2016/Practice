@@ -93,7 +93,7 @@ void DeleteNode(ListNode** pListHead, ListNode* pToBeDeleted)
 
 	}
 }
-int main()
+int main_14()
 {
 	int a[8] = { 1,5,6,8,9,45,2,63 };
 

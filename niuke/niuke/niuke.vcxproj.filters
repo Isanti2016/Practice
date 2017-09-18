@@ -120,6 +120,9 @@
     <ClCompile Include="36新浪.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="37迈瑞.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sortting.h">

@@ -105,6 +105,63 @@
     <ClCompile Include="29数组中出现次数超过一半的数字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="30最小的k个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31连续子数组的最大和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32从1到n整数中1出现的次数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33把数组排成最小的数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34丑数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35第一个只出现一次的字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36数组中的逆序对数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37两个链表的第一个公共结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38数字在排序数组中出现的次数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39_1二叉树的深度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39_2判断一颗二叉树是不是平衡二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40数组中只出现一次的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41_1递增排序数组中和为s的两个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41_2和为s的连续正数序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42_1翻转单词顺序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42_2左旋字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44扑克牌的顺子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45圆圈中最后剩下的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46求1+2+3+...+n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common_head.h">
