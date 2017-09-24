@@ -186,7 +186,10 @@
     <ClCompile Include="44扑克牌的顺子.cpp" />
     <ClCompile Include="45圆圈中最后剩下的数字.cpp" />
     <ClCompile Include="46求1+2+3+...+n.cpp" />
+    <ClCompile Include="47不使用加减乘除做加法.cpp" />
     <ClCompile Include="4空格替换.cpp" />
+    <ClCompile Include="51数组中不重复的数字.cpp" />
+    <ClCompile Include="55字符流中第一个不重复的字符.cpp" />
     <ClCompile Include="5重尾到头打印链表.cpp" />
     <ClCompile Include="6重建二叉树.cpp" />
     <ClCompile Include="7两个栈实现一个队列.cpp" />
@@ -195,6 +198,7 @@
     <ClCompile Include="20顺时针打印矩阵.cpp" />
     <ClCompile Include="21包含min的函数栈.cpp" />
     <ClCompile Include="37两个链表的第一个公共结点.cpp" />
+    <ClCompile Include="0二叉树的遍历.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common_head.h" />

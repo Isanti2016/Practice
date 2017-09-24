@@ -27,3 +27,8 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+typedef struct BitNode {
+	int val;
+	BitNode* lchild, *rchild;
+}BitNode,*BitTree;
+

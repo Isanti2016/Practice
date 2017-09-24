@@ -123,6 +123,12 @@
     <ClCompile Include="37迈瑞.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="38迅雷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39携程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sortting.h">

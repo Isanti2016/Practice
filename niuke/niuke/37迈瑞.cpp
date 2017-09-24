@@ -62,7 +62,7 @@ public:
 
 };
 
-int main() {
+int main_37_9() {
 	////B1 b; 
 	////b.print();
 	////printf("%d", b._a);

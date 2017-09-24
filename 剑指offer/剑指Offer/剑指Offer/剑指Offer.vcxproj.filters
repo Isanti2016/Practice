@@ -162,6 +162,18 @@
     <ClCompile Include="46求1+2+3+...+n.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="47不使用加减乘除做加法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51数组中不重复的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55字符流中第一个不重复的字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0二叉树的遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common_head.h">
