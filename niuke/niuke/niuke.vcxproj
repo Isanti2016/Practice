@@ -184,6 +184,7 @@
     <ClCompile Include="11HuaWei.cpp" />
     <ClCompile Include="12LianJia.cpp" />
     <ClCompile Include="28KMP.cpp" />
+    <ClCompile Include="40今日头条.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class_def.h" />

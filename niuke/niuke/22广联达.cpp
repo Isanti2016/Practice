@@ -99,7 +99,7 @@ int Search_repeat(const vector<int>& vec) {
 	}
 	return result;
 }
-int main() {
+int main_22() {
 	vector<int> vec = { 1,2,3,5,2,3,2};
 	int result = Search_repeat(vec);
 	cout << result<< endl;
